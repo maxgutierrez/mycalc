@@ -1,0 +1,78 @@
+body {
+	background-color: rgb(22, 22, 22) ;
+}
+
+/* MOBILE FIRST ================== */
+.display {
+	height: 40vh;
+}
+#visor1 {
+	font-size: 40px;
+	height: 40%;
+	background-color: #111 ;
+	width: 99%;
+	border-color: #111 ;
+}
+#visor2 {
+	font-size: 40px;
+	height: 40%;
+	background-color: #111 ;
+	width: 99%;
+	border-color: #111 ;
+}
+button {
+	outline: none;
+	color: white ;
+	background: #111 ;
+	font-size: 40px;
+	border-radius: 30px ;
+	width: 20%;
+	height: 100%;/* 100% da altura da linha */
+	margin: 2%;
+}
+#linha {
+	height: 20%;
+}
+#visor-data, #visor-hora {
+	width: 46%;
+	height: 10px;
+	background-color: #111 ;
+	border-color: #111 ;
+} 
+@media(min-width: 501px) {
+	.display {
+		margin: 0 auto;
+		max-width: 400px;
+		border: 1px solid rgb(80, 80, 80);
+		border-radius: 5px 5px 0 0;
+	}
+	#visor1, #visor2{
+		font-size: 40px;
+		background-color: #111 ;
+		width: 95%;
+		border-color: #111 ;
+	}
+	.buttons {
+		margin: 0 auto;
+		max-width: 400px;
+		border: 1px solid gray;
+	}
+	button {
+		color: white ;
+		background: #111 ;
+		font-size: 40px;
+		border-radius: 30px ;
+		width: 20%;
+		height: 100%;/* 100% da altura da linha */
+		margin: 2%;
+	}
+	#linha {
+		height: 20%;
+	}
+	#visor-data, #visor-hora {
+		width: 46%;
+		height: 10px;
+		background-color: #111 ;
+		border-color: #111 ;
+	} 
+}
